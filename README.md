@@ -24,3 +24,8 @@ The model was designed using a convolutional neural network (CNN) with the goal 
 
 ### Training of the Model 🏋️‍♂️
 The model was trained using the previously prepared training set. Training was monitored using the 'rmsprop' optimizer, the 'binary_crossentropy' loss function and the 'accuracy' metric. Callbacks were also applied to adjust the learning rate during training.
+
+### Model Evaluation and Results 📈
+After training, the model was evaluated using the test set. Several performance indicators were calculated, including accuracy, precision, recall and F1-score. Confusion matrix was generated to further evaluate the performance of the model in binary classification.
+
+The results obtained demonstrate the effectiveness of the model in detecting pneumonia from X-ray images, with **92%** accuracy and good discrimination between normal and pneumonia cases.
