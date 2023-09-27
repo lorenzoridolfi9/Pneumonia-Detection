@@ -21,3 +21,6 @@ Replicas of images whose class was numerically lower were created, so that now t
 
 ### Model Creation ⚒️
 The model was designed using a convolutional neural network (CNN) with the goal of achieving accurate classification of X-ray images. The model structure includes several convolutional layers, max pooling, dropout to prevent overfitting, and fully connected layers. The activation function used is 'relu' for convolutional layers and 'sigmoid' in the last layer for binary classification.
+
+### Training of the Model 🏋️‍♂️
+The model was trained using the previously prepared training set. During the training, a data augmentation technique was implemented to improve the generalization of the model. Training was monitored using the 'rmsprop' optimizer, the 'binary_crossentropy' loss function and the 'accuracy' metric. Callbacks were also applied to adjust the learning rate during training.
