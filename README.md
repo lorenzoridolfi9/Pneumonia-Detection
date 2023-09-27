@@ -28,7 +28,7 @@ The model was trained using the previously prepared training set. Training was m
 ### Model Evaluation and Results 📈
 After training, the model was evaluated using the test set. Several performance indicators were calculated, including accuracy, precision, recall and F1-score. Confusion matrix was generated to further evaluate the performance of the model in binary classification.
 
-The results obtained demonstrate the effectiveness of the model in detecting pneumonia from X-ray images, with **92%** accuracy and good discrimination between normal and pneumonia cases.
+The results obtained demonstrate the effectiveness of the model in detecting pneumonia from X-ray images, with **91%** accuracy and good discrimination between normal and pneumonia cases.
 
 ## Use of the Trained Model 🚀
 The trained model can be used to make predictions on new unseen X-ray images. It can be integrated into other applications or systems to provide support in the diagnosis of pneumonia.
