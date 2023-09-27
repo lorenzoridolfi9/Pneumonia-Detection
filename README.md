@@ -17,4 +17,7 @@ Then, since the classes were unbalanced, to avoid overfitting problems, a data a
 - causal rotation of the images
 - moving the images vertically and horizontally
 
-Replicas of images whose class was numerically lower were created.
+Replicas of images whose class was numerically lower were created, so that now the present dataset is balanced.
+
+### Model Creation ⚒️
+The model was designed using a convolutional neural network (CNN) with the goal of achieving accurate classification of X-ray images. The model structure includes several convolutional layers, max pooling, dropout to prevent overfitting, and fully connected layers. The activation function used is 'relu' for convolutional layers and 'sigmoid' in the last layer for binary classification.
