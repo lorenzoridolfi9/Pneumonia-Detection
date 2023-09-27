@@ -12,3 +12,9 @@ For the analysis of chest x-ray images, all chest radiographs were initially scr
 you can find the dataset used in the project in my google drive at the following [Link](https://drive.google.com/drive/folders/1NS4rtssRgg5EGE6Mb0RiW87VylaBO4QK).
 
 ## Process of Analysis ⚙️
+After loading the dataset, an exploratory data analysis was conducted to print on the screen some sample images present in the training set.
+Then, since the classes were unbalanced, to avoid overfitting problems, a data augmentation technique was implemented through the ImageDataAugmentation library, which allows replicating the images present in the dataset by modifying some of their details:
+- causal rotation of the images
+- moving the images vertically and horizontally
+
+Replicas of images whose class was numerically lower were created.
